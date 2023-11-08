@@ -39,10 +39,9 @@ class FootballAdmin(admin.ModelAdmin):
     list_display=('name','age','aadhar','email','mobilenum')
 
 ```
-
 ## OUTPUT
-![Alt text](<Screenshot (8).png>)
 
+![Alt text](football.png)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully

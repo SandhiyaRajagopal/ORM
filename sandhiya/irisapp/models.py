@@ -8,4 +8,4 @@ class Football (models.Model):
     mobilenum=models.IntegerField()
 
 class FootballAdmin(admin.ModelAdmin):
-    list_display=('name','age','aadhar','email','mobilenum')
+    list_display=['name','age','aadhar','email','mobilenum']
